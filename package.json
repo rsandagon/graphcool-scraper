@@ -1,0 +1,50 @@
+{
+  "name": "graphql-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsandagon/simple-graphql-server.git"
+  },
+  "keywords": [
+    "graphql",
+    "react",
+    "apollo"
+  ],
+  "author": "Ryan Sandagon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsandagon/graphql-scraper/issues"
+  },
+  "homepage": "https://github.com/rsandagon/graphql-scraper#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-dev-middleware": "^3.1.0",
+    "webpack-livereload-plugin": "^2.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js --ignore client --mode=development"
+  }
+}
